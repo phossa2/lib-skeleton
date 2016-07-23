@@ -1,0 +1,47 @@
+{
+    "name": "phossa2/:package_name",
+    "license": "MIT",
+    "type": "library",
+    "description": ":package_description",
+    "keywords": [":package_name", "phossa"],
+    "homepage": "https://github.com/phossa2/:package_name",
+    "authors": [
+        {
+            "name": "Hong Zhang",
+            "homepage": "https://github.com/phossa2"
+        }
+    ],
+    "require": {
+        "php": "~5.4|~7.0",
+        "phossa2/shared": "^2.0.21"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": { "Phossa2\\__Package\\": "src/" }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "format": "phpcbf --standard=psr2 src/"
+    },
+    "provide": {
+        "psr/log-implementation": "1.0.0"
+    },
+    "replace": {
+        "phossa/phossa-:package_name": "*"
+    },
+    "config": {
+        "platform": {
+            "php": "5.4.0"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    },
+    "archive": {
+        "exclude": [ "!vendor", "tests", "composer.lock" ]
+    }
+}
