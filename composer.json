@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "library",
     "description": ":package_description",
-    "keywords": [":package_name", "phossa", "phossa2", "php", "framework"],
+    "keywords": [":package_name", "phossa", "phossa2", "framework"],
     "homepage": "https://github.com/phossa2/:package_name",
     "authors": [
         {
@@ -20,12 +20,12 @@
         "squizlabs/php_codesniffer": "2.*"
     },
     "autoload": {
-        "psr-4": { "Phossa2\\__Package\\": "src/" }
+        "psr-4": { "Phossa2\\__Package\\": "__Package/" }
     },
     "scripts": {
         "test": "phpunit",
-        "check": "phpcs --standard=psr2 src/",
-        "format": "phpcbf --standard=psr2 src/"
+        "check": "phpcs --standard=psr2 __Package/",
+        "format": "phpcbf --standard=psr2 __Package/"
     },
     "config": {
         "platform": {

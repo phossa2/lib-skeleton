@@ -1,6 +1,7 @@
 # phossa2/:package_name
 [![Build Status](https://travis-ci.org/phossa2/:package_name.svg?branch=master)](https://travis-ci.org/phossa2/:package_name)
 [![Code Quality](https://scrutinizer-ci.com/g/phossa2/:package_name/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/phossa2/:package_name/)
+[![Code Climate](https://codeclimate.com/github/phossa2/:package_name/badges/gpa.svg)](https://codeclimate.com/github/phossa2/:package_name)
 [![PHP 7 ready](http://php7ready.timesplinter.ch/phossa2/:package_name/master/badge.svg)](https://travis-ci.org/phossa2/:package_name)
 [![HHVM](https://img.shields.io/hhvm/phossa2/:package_name.svg?style=flat)](http://hhvm.h4cc.de/package/phossa2/:package_name)
 [![Latest Stable Version](https://img.shields.io/packagist/vpre/phossa2/:package_name.svg?style=flat)](https://packagist.org/packages/phossa2/:package_name)
