@@ -5,7 +5,7 @@
 [![PHP 7 ready](http://php7ready.timesplinter.ch/phossa2/:package_name/master/badge.svg)](https://travis-ci.org/phossa2/:package_name)
 [![HHVM](https://img.shields.io/hhvm/phossa2/:package_name.svg?style=flat)](http://hhvm.h4cc.de/package/phossa2/:package_name)
 [![Latest Stable Version](https://img.shields.io/packagist/vpre/phossa2/:package_name.svg?style=flat)](https://packagist.org/packages/phossa2/:package_name)
-[![License](https://poser.pugx.org/phossa2/:package_name/license)](http://mit-license.org/)
+[![License](https://img.shields.io/:license-mit-blue.svg)](http://mit-license.org/)
 
 **phossa2/:package_name** is a PHP library.
 
