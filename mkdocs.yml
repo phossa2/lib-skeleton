@@ -1,0 +1,11 @@
+docs_dir: doc/book
+site_dir: doc/html
+pages:
+    - index.md
+    - Overview: overview.md
+    - Reference:
+        - "Reference": ref.md
+site_name: phossa2/:package_name
+site_description: phossa2/:package_name
+repo_url: 'https://github.com/phossa2/:package_name'
+copyright: 'Copyright (c) 2016 Phossa.com</a>'
