@@ -21,8 +21,8 @@ namespace Phossa2\__Package\Exception;
  * @author  Hong Zhang <phossa@126.com>
  * @see     ExceptionInterface
  * @see     \LogicException
- * @version 2.0.0
- * @since   2.0.0 added
+ * @version 2.1.0
+ * @since   2.1.0 added
  */
 class LogicException extends \LogicException implements ExceptionInterface
 {

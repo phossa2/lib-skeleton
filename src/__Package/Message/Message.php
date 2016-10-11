@@ -22,8 +22,8 @@ use Phossa2\Shared\Message\Message as BaseMessage;
  * @package Phossa2\__Package
  * @author  Hong Zhang <phossa@126.com>
  * @see     \Phossa2\Shared\Message\Message
- * @version 2.0.0
- * @since   2.0.0 added
+ * @version 2.1.0
+ * @since   2.1.0 added
  */
 class Message extends BaseMessage
 {
